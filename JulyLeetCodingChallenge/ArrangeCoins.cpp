@@ -41,3 +41,17 @@ public:
         return count-1;
     }
 };
+
+
+//Mathematical
+class Solution {
+public:
+    int arrangeCoins(int n) {
+        return (int)(sqrt(2 * (long)n + 0.25) - 0.5);
+    }
+};
+
+/*
+Runtime: 4 ms, faster than 79.21% of C++ online submissions for Arranging Coins.
+Memory Usage: 5.9 MB, less than 80.40% of C++ online submissions for Arranging Coins.
+*/
